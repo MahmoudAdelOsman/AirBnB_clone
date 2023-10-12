@@ -34,7 +34,7 @@ class FileStorage:
         mos_odict = FileStorage.__objects
         mos_objdict = {obj: mos_odict[obj].to_dict() for obj in mos_odict.keys()}
         with open(FileStorage.__file_path, "w") as f:
-            json.dump(mos_objdict, f)
+            json.dump(mos_objdict, f, indent=4)
 
     def reload(self):
         """Deserialize the JSON file __file_path to __objects, if it exists."""
