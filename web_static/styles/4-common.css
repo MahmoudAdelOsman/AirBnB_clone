@@ -1,0 +1,16 @@
+body {
+    color: #484848;
+    font-size: 14px;
+    font-family: Cicular, "Helvetica Neue",Arial, Helvetica, sans-serif;
+
+}
+
+.Container{
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
